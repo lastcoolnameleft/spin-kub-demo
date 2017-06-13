@@ -1,8 +1,8 @@
 FROM golang
 
-ADD . /go/src/github.com/azure-devops/k8s-demo
+ADD . /go/src/github.com/lastcoolnameleft/spin-kub-demo
 
-RUN go install github.com/azure-devops/k8s-demo
+RUN go install github.com/lastcoolnameleft/spin-kub-demo
 
 ADD ./content /content
 
